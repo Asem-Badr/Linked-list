@@ -7,7 +7,7 @@
 #include "gobal.h"
 #include <stdlib.h>
 
-typedef Student data;
+typedef int data;
 
 typedef struct node
 {
