@@ -71,7 +71,7 @@ int list_size(list_t *ls)
     return ls->size ;
 }
 
-/*int get_index(list_t* ls,data dt)
+int get_index(list_t* ls,data dt)
 {
     Node* ptr = ls->head;
     int i;
@@ -86,7 +86,7 @@ int list_size(list_t *ls)
 
     return -1;
 
-}*/
+}
 data element_at(list_t* ls,int pos)
 {
     Node* ptr = ls->head;
